@@ -50,6 +50,8 @@ Este proceso es necesario para poder descargar el archivo que contiene el listad
 <b>Token de Acceso:</b>
 <br>
 <br>Para tener acceso a la API y poder descargar sus registros de compra y venta, debe registrarse en factronica.
+<br>Al momento de registrarse, se le entregará un Token con el siguiente formato: TOKENFACTRONICA=sutoken
 <br>Link para Registro:  http://www.factronica.cl/registro
+<br>
 
   
