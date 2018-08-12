@@ -46,3 +46,10 @@ Este proceso es necesario para poder descargar el archivo que contiene el listad
 <br><b>Recuperar Archivo Csv con Linux:</b>
 <br>curl -o rcv_enero2018.csv http://www.factronica.cl/servidores/home/111111111/rcv_comprasenero2018.csv
 <br>
+<hr>
+<b>Token de Acceso:</b>
+<br>
+<br>Para tener acceso a la API y poder descargar sus registros de compra y venta, debe registrarse en factronica.
+<br>Link para Registro:  http://www.factronica.cl/registro
+
+  
