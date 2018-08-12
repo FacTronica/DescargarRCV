@@ -1,5 +1,20 @@
 # DescargarRCV
 Descargar Registro de Compra y Venta del SII
+<BR>
+<br>INTRODUCCIÓN:
+<br>Hoy en día para declarar los impuestos mensuales f29, todos los contribuyentes se rigen fielmente 
+<br>a lo informado en el registro de compras y ventas que entrega el sii desde agosto 2017 en adelante.
+<br>
+<br>A raiz de este registro, es que se genera el siguiente conflicto, el cual es que el contribuyente deba cuadrar
+<br>sus compras recibidas en su sistema versus lo informado al sii.
+<br>Cuando son pocos documentos no hay problema, pero cuando son  muchos documentos, se pone complejo el escenario.
+<br>Ya que realizar ese cruce toma mucho tiempo generalmente los contribuyentes lo realizan a fin de mes bajo un estres que se transforma en rutinario al termino de cada mes, sin contar que los servidores del sii colapsan el último día de cada mes.
+<br>
+<br>Es por ello que Factronica ha desarrollado una aplicación que descarga en forma automática el registro csv.
+<br>Además de descargarlo de forma directa y automática, en sistema el ERP FacTronica se realiza una AutoConciliación de Documentos.
+<br>De esta forma el contribuyente tiene un reporte a diario de la cuadratura y cruze de información registrada en el SII Chile.
+<br>
+<br><b>Procedimiento Para Integrar en Software Propio:</b>
 <br>A continuación se detalla el Procedimiento para realizar la Descarga de Archivos Csv Registro Compra y Venta del SII.
 <h3>Procesos a Realizar:</h3>
 1.-Generar Archivo Plano TXT
