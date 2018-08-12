@@ -16,18 +16,18 @@ Este proceso Consiste en generar un archivo de texto plano con el formato requer
 Para enviar el archivo plano TXT al servidor Factronica se hace uso de librería opensource CURL.
 <br>
 <br><b>Enviar archivo txt desde Consola Windows:</b>
-<br>c:\curl\curl.exe --form "archivotxt=@c:\curl\datos_rcv.txt" http://www.factronica.cl/servidores/factronica_rcv/index.php
+<br>c:\curl\curl.exe --form "archivotxt=@c:\curl\datos_rcv.txt" http://www.factronica.cl/servidores/factronica_rcv/index.php?TOKENFACTRONICA=123
 <br>
 <br><b>Enviar archivo desde Consola Linux:</b>
-<br>curl --form "archivotxt=@datos_rcv.txt" http://www.factronica.cl/servidores/factronica_rcv/index.php
+<br>curl --form "archivotxt=@datos_rcv.txt" http://www.factronica.cl/servidores/factronica_rcv/index.php?TOKENFACTRONICA=123
 <br>
 <hr>
 <h3>Proceso 3: Recuperar el Csv con Rcv:</h3>
 Este proceso es necesario para poder descargar el archivo que contiene el listado con registros de compras o ventas.
 <br>
 <br><b>Recuperar archivo Csv con Windows:</b>
-<br>c:\curl\curl.exe -o c:\curl\rcv_enero2018.csv http://www.factronica.cl/servidores/home/111111111/rcv_enero2018.csv
+<br>c:\curl\curl.exe -o c:\curl\rcv_enero2018.csv http://www.factronica.cl/servidores/home/111111111/rcv_comprasenero2018.csv
 <br>
 <br><b>Recuperar Archivo Csv con Linux:</b>
-<br>curl -o rcv_enero2018.csv http://www.factronica.cl/servidores/home/111111111/rcv_enero2018.csv
+<br>curl -o rcv_enero2018.csv http://www.factronica.cl/servidores/home/111111111/rcv_comprasenero2018.csv
 <br>
