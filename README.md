@@ -24,7 +24,8 @@ Para enviar el archivo plano TXT al servidor Factronica se hace uso de librería
 Este proceso es necesario para poder descargar el archivo que contiene el listado con registros de compras o ventas.
 <br>
 <br><b>Recuperar archivo Csv con Windows:</b>
-<br>c:\curl\curl.exe -o c:\curl\factura_folio777_tipo33_trackid.xml http://www.factronica.cl/factronica_webservice_servidor_beta/trackid/factura_folio777_tipo33_trackid.xml
+<br>c:\curl\curl.exe -o c:\curl\rcv_enero2018.csv http://www.factronica.cl/servidor/home/111111111/rcv_enero2018.csv
 <br>
-<br><b>Recuperar Archivo Xml con Linux:</b>
-<br>curl -o factura_folio777_tipo33_trackid.xml http://www.factronica.cl/factronica_webservice_servidor_beta/trackid/factura_folio777_tipo33_trackid.xml
+<br><b>Recuperar Archivo Csv con Linux:</b>
+<br>curl -o rcv_enero2018.csv http://www.factronica.cl/servidor/home/111111111/rcv_enero2018.csv
+<br>
