@@ -1,7 +1,7 @@
 # DescargarRCV
-Descargar Registro de Compra y Venta del SII
+<b>Descargar Registro de Compra y Venta del SII</b>
 <BR>
-<br>INTRODUCCIÓN:
+<br><b>Introducción</b>:
 <br>Hoy en día para declarar los impuestos mensuales f29, todos los contribuyentes se rigen fielmente 
 <br>a lo informado en el registro de compras y ventas que entrega el sii desde agosto 2017 en adelante.
 <br>
